@@ -1,0 +1,148 @@
+/*--------- General ---------*/
+body{
+    margin:0;
+    background-color: antiquewhite;
+    font-family: "Work Sans", sans-serif;
+}
+
+a{
+    text-decoration: none; /*Quita los subrayados de los enlaces*/
+}
+
+
+/*--------- Header ---------*/
+.cabecera{
+    background-color: #010101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*width: 100%;*/
+}
+
+.cabecera__logo{
+    width: 30%;
+
+}
+
+.cabecera__nav__list{
+    display: flex;
+}
+
+.cabecera__nav__list__enlace{
+    margin-right: 1.75rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.cabecera__nav__list__enlace:hover{
+    color: yellowgreen;
+}
+
+/*--------- Sección principal (main) ---------*/
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.principal__título{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.principal__viajes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.principal__viajes__art{
+    width: 30%;
+}
+
+.principal__viajes__art__img{
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+.principal__viajes__art__contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__viajes__art__contenedor__texto{
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 70%;
+}
+
+.principal__viajes__art__contenedor__enlace{
+    background-color: grey;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    font-size: 1.1rem;
+    margin-left: 0.75rem;
+    text-align: center;
+}
+
+.principal__viajes__art__contenedor__enlace:hover{
+    background-color: #010101;
+}
+
+.principal__contacto{
+    width: 100%;
+    background-color: #010101;
+}
+
+.principal__contacto__form__contenedor{
+    display: flex; 
+    flex-direction: column; 
+    border: 0;
+    align-items: center; 
+    margin-top: 5rem; 
+    margin-bottom: 5rem; 
+}
+
+.principal__contacto__form__contenedor__título{
+    width: 100%;
+    text-align: center;
+    color: aliceblue; 
+    font-size: 2rem; 
+    margin-bottom: 2.5rem; 
+}
+
+.principal__contacto__form__contenedor__div{
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+}
+.principal__contacto__form__contenedor__div__email{
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 0;
+    font-size: 1rem;
+}
+
+.principal__contacto__form__contenedor__div__botón{
+    padding: 0.5rem;
+    border: 0;
+    text-align: center; 
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 0.35rem;
+    background-color: grey;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.principal__contacto__form__contenedor__div__botón:hover{
+    background-color: yellow;
+    color: #010101;
+}
